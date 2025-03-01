@@ -1,6 +1,6 @@
 # Clean Media
 
-(https://res.cloudinary.com/dw3gaixoh/image/upload/v1728476117/nao8eivc0ia2je7s4tgj.png)
+![Clean Media Logo](https://res.cloudinary.com/dw3gaixoh/image/upload/v1728476117/nao8eivc0ia2je7s4tgj.png)
 
 ## 🌟 About Clean Media
 Clean Media is a social media application built using the **MERN stack** (MongoDB, Express.js, React, Node.js). It offers a categorized post system:
