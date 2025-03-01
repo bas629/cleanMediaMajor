@@ -1,7 +1,5 @@
 # Clean Media
 
-![Clean Media Logo](# Clean Media
-
 (https://res.cloudinary.com/dw3gaixoh/image/upload/v1728476117/nao8eivc0ia2je7s4tgj.png)
 
 ## 🌟 About Clean Media
