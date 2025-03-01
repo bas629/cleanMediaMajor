@@ -1,0 +1,24 @@
+const express = require("express");
+const router = express.Router();
+const { createAccount } = require("../controller/accountCreate");
+const {Private_Post,Public_Post,Protected_Post}=require("../controller/post");
+const{get_Post}=require("../controller/getAllPost");
+const{Private_Friend, Protected_Friend}=require("../controller/friends");
+const{find_by_id}=require("../controller/findByID")
+const{userAccount}=require("../controller/userAccount");
+const {publicPost}=require("../controller/publicPost");
+ const{PrivatePost}=require("../controller/PrivatePost"); 
+  const{ProtectedPost}=require("../controller/ProtectedPost");
+router.post("/creatAccount", createAccount);
+router.put("/PrivatePost", Private_Post);
+router.put("/PublicPost", Public_Post);
+router.put("/ProtectedPost", Protected_Post);
+router.post("/PrivateFriend", Private_Friend);
+router.put("/ProtectedFriend", Protected_Friend);
+router.post("/findById",find_by_id);
+router.get("/getAllPost",get_Post);
+router.post("/userAccount",userAccount);
+router.get("/publicPost",publicPost);
+router.post("/privatePost",PrivatePost);
+router.post("/protectedPost",ProtectedPost);
+module.exports = router;
