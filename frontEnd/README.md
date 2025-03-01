@@ -1,31 +1,77 @@
-# React & Tailwind CSS Starter Pack
+# Clean Media
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+![Clean Media Logo](https://via.placeholder.com/150)
 
-## Usage
+## 🌟 About Clean Media
+Clean Media is a social media application built using the **MERN stack** (MongoDB, Express.js, React, Node.js). It offers a categorized post system:
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+- **Public Posts**: Visible to everyone.
+- **Protected Posts**: Visible to followers and friends.
+- **Private Posts**: Visible only to close friends.
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+This project aims to provide a clean and controlled social media experience.
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+## 🚀 Features
+- User authentication (Sign up, Login, Logout)
+- Categorized posts (Public, Private, Protected)
+- Friends and followers management
+- Secure API with authentication
+- Responsive UI with React
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+## 🛠️ Tech Stack
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (Mongoose ORM)
+- **Authentication**: JWT (JSON Web Token)
+- **State Management**: Redux (if needed)
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+## 📦 Installation
 
-## Contributing
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/your-username/clean-media.git
+   cd clean-media
+   ```
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+2. **Install dependencies**
+   ```sh
+   # Install frontend dependencies
+   cd client
+   npm install
+   
+   # Install backend dependencies
+   cd ../server
+   npm install
+   ```
+
+3. **Set up environment variables**
+   Create a `.env` file in the `server/` directory and add:
+   ```env
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
+   ```
+
+4. **Run the application**
+   ```sh
+   # Start the backend server
+   cd server
+   npm  run dev 
+   
+   # Start the frontend
+   cd ../client
+   npm start
+   ```
+
+## 🔥 Contributing
+Contributions are welcome! If you want to contribute:
+- Fork the repository
+- Create a new branch (`git checkout -b feature-branch`)
+- Commit your changes (`git commit -m "Add new feature"`)
+- Push to the branch (`git push origin feature-branch`)
+- Open a Pull Request
+
+
+
+
+---
+**Let's build a better social media experience with Clean Media! 🚀**
